@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="search">
+    <form>
+        <input class="search__element" id="search__input" type="text" placeholder="City name or index">
+        <button class="search__element" id="search__button">Search</button>
+    </form>
+</div>
+
+<div class="weather">
+
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#current-weather">Current weather</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#hourly-weather">24 hours weather</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#daily-weather">7 days weather</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="current-weather">
+            <div class="current-weather__content">
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="hourly-weather">
+            <div class="hourly-weather__content">
+                
+            </div>
+        </div>
+        <div class="tab-pane fade" id="daily-weather">
+            <div class="daily-weather__content">
+
+            </div>
+        </div>
+    </div>
+
+</div>
